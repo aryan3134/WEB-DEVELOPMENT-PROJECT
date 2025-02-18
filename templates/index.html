@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon clone</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="amazon.css"></head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+
+                </div>
+            </div>
+            <div class="nav-address border"><p class="first-class">Deliver to</p>
+            <div class="nav-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="second-class">India</p>
+            </div>
+            </div>
+            <div class="nav-search">
+                <select class="select-class">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="input-class">
+            
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="location border">
+            <i class="fa-solid fa-flag-usa"></i>
+            USA
+
+        </div>
+        <div class="nav-signin border">
+            <p><form action="/register" method="get">
+                <button> Hello,sign in </button>
+            </form></p>
+            <p class="nav-second">Account &amp; lists</p>
+        </div>
+        <div class="nav-return border">
+            <p><span> Returns </span></p>
+            <p class="nav-second">&amp; Orders</p>
+        </div>
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+           Cart
+        </div>
+        </div>
+
+
+
+
+        <div class="second-major border">
+            <div class="menu border">
+                <i class="fa-solid fa-bars"></i>
+                menu
+            </div>
+            <div class="info1 border">
+            <p>Today's Deals</p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift Card</p>
+            <p>Sell</p>
+            
+            </div>
+        <div class="electronic border">
+            Electronic items
+        </div>
+     </div>     
+    </header>
+
+
+
+
+    <div class="hero-section ">
+        <div class="hero-sub">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=DChcSEwim4pLG0qGIAxVPo2YCHdSVAOUYABAAGgJzbQ&amp;co=1&amp;ase=2&amp;gclid=CjwKCAjwodC2BhAHEiwAE67hJBFyxJl9kUY8BcIUrhzYHAjhCX-FSw8GGhsvVeoMVwQLFHtabUamnBoCAO0QAvD_BwE&amp;ohost=www.google.com&amp;cid=CAESVeD2zWnE-tcp2WaNMdPHGTiMniQQUyqf3WDvH0oEC7Ew2o7QTVaNJya9ebV_XgYFGLbIP2yAPZZGTWfKruIIfZ3PdkLis6zZgw_xTzxJ4-VnhV3dDqs&amp;sig=AOD64_1YSqiwQ5-6cGzGtCBxTC59VFpZWA&amp;q&amp;nis=4&amp;adurl&amp;ved=2ahUKEwi3gY3G0qGIAxWuTmwGHcjgDgkQ0Qx6BAgIEAE">Click here to go to amazon.in</a></p>
+            
+            
+        </div>
+    </div>
+
+     <div class="shop-section">
+     <div class="box1 box"> <div class="box-content">
+        <h2>
+            Clothes
+        </h2>
+        <div class="box-img"> 
+            <img src="{{ url_for('static', filename='images/box1_image.jpg') }}" alt="Logo">
+        </div>
+        <p> Shop now ! </p></div>
+
+     </div>
+     <div class="box2 box">
+        <div class="box-content">
+            <h2>
+                health and personal care
+            </h2>
+            <div class="box-img">
+                <img src="{{ url_for('static', filename='images/box2_image.jpg') }}" alt="Logo"> </div>
+            <p> Shop now ! </p></div>
+     </div>
+     <div class="box3 box">
+        <div class="box-content">
+            <h2>
+                furniture
+            </h2>
+            <div class="box-img">
+                <img src="{{ url_for('static', filename='images/box3_image.jpg') }}" alt="Logo"> </div>
+            <p> Shop now ! </p></div>
+     </div>
+     <div class="box4 box">
+        <div class="box-content">
+            <h2>
+                furniture
+            </h2>
+            <div class="box-img">
+                <img src="{{ url_for('static', filename='images/box4_image.jpg') }}" alt="Logo"> </div>
+            <p> Shop now ! </p></div>
+     </div>
+ <div class="box1 box"> <div class="box-content">
+        <h2>
+            health and personal care
+        </h2>
+        <div class="box-img">
+            <img src="{{ url_for('static', filename='images/box5_image.jpg') }}" alt="Logo"> </div>
+        <p> Shop now ! </p></div>
+
+     </div>
+     <div class="box2 box">
+        <div class="box-content">
+            <h2>
+                clothes
+            </h2>
+            <div class="box-img"> 
+                <img src="{{ url_for('static', filename='images/box6_image.jpg') }}" alt="Logo">
+            </div>
+            <p> Shop now ! </p></div>
+     </div>
+     <div class="box3 box">
+        <div class="box-content">
+            <h2>
+                clothes
+            </h2>
+            <div class="box-img" >
+                <img src="{{ url_for('static', filename='images/box7_image.jpg') }}" alt="Logo"> </div>
+            <p> Shop now ! </p></div>
+     </div>
+     <div class="box4 box">
+        <div class="box-content">
+            <h2>
+                health and personal care
+            </h2>
+            <div class="box-img" >
+                <img src="{{ url_for('static', filename='images/box8_image.jpg') }}" alt="Logo"> </div>
+            <p> Shop now ! </p></div>
+     </div>   </div>
+
+<footer>
+
+
+
+
+
+<div class="fsecone border">
+    Back to Top
+</div>
+<div class="fsectwo"><ul>
+    <a>Make Money with Us</a>
+        <a>Sell products on Amazon</a>
+            <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                    <a>Become an Affiliate</a>
+                        <a>Advertise Your Products</a>
+                            <a>Self-Publish with Us</a>
+                                <a>Host an Amazon Hub</a>
+                                    <a>See More Make Money with U</a></ul>
+                                    <ul>
+                                        <a>Make Money with Us</a>
+                                            <a>Sell products on Amazon</a>
+                                                <a>Sell on Amazon Business</a>
+                                                    <a>Sell apps on Amazon</a>
+                                                        <a>Become an Affiliate</a>
+                                                            <a>Advertise Your Products</a>
+                                                                <a>Self-Publish with Us</a>
+                                                                    <a>Host an Amazon Hub</a>
+                                                                        <a>See More Make Money with U</a></ul>
+                                                                        <ul>
+                                                                            <a>Make Money with Us</a>
+                                                                                <a>Sell products on Amazon</a>
+                                                                                    <a>Sell on Amazon Business</a>
+                                                                                        <a>Sell apps on Amazon</a>
+                                                                                            <a>Become an Affiliate</a>
+                                                                                                <a>Advertise Your Products</a>
+                                                                                                    <a>Self-Publish with Us</a>
+                                                                                                        <a>Host an Amazon Hub</a>
+                                                                                                            <a>See More Make Money with U</a></ul>
+                                                                                                            <ul>
+                                                                                                                <a>Make Money with Us</a>
+                                                                                                                    <a>Sell products on Amazon</a>
+                                                                                                                        <a>Sell on Amazon Business</a>
+                                                                                                                            <a>Sell apps on Amazon</a>
+                                                                                                                                <a>Become an Affiliate</a>
+                                                                                                                                    <a>Advertise Your Products</a>
+                                                                                                                                        <a>Self-Publish with Us</a>
+                                                                                                                                            <a>Host an Amazon Hub</a>
+                                                                                                                                                <a>See More Make Money with U</a></ul>
+
+
+
+
+
+</div>
+
+<div class="logo-last"> <div class="logo"></div>
+</div>
+
+
+<div class="last-panel">
+    <div class="privacy">
+        <a>Conditions of use</a>
+        <a>Privacy Notice</a>
+        <a>Consumer Health Data Privacy Disclosure</a>
+        <a>Your ads Privacy Choices</a>
+     </div>
+    <div class="code">
+        © 1996-2024, Amazon.com, Inc. or its affiliates
+    </div>
+
+</div>
+
+
+
+
+
+</footer>
+</body>
+</html>
