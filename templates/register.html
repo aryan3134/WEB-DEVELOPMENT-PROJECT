@@ -2,9 +2,55 @@
 <html>
 <head>
     <title>Sign Up | Amazon Clone</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="amazon.css">
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo">
+
+                </div>
+            </div>
+            <div class="nav-address border"><p class="first-class">Deliver to</p>
+            <div class="nav-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="second-class">India</p>
+            </div>
+            </div>
+            <div class="nav-search">
+                <select class="select-class">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="input-class">
+            
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="location border">
+            <i class="fa-solid fa-flag-usa"></i>
+            USA
+
+        </div>
+        <div class="nav-signin border">
+            <p><span> Hello,sign in </span></p>
+            <p class="nav-second">Account &amp; lists</p>
+        </div>
+        <div class="nav-return border">
+            <p><span> Returns </span></p>
+            <p class="nav-second">&amp; Orders</p>
+        </div>
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+           Cart
+        </div>
+        </div>
     <div class="form-container">
         <h2>Sign Up</h2>
         <form action="/register" method="POST">
